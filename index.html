@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Netflix Adil - Watch TV Shows Online</title>
+		<!-- Bootstrap CSS Cdn -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<!-- Font Awesome Cdn -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Link Css  -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- Home Section -->
+		<div class="bg-netflix">
+            <!-- Navbar Content -->
+			<div class="container-fluid">
+				<div class="navbar navbar-expand-lg">
+					<a href="/" class="navbar-brand"
+					><img
+						class="nf-logo ms-4"
+						src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+						alt="Netflix Logo"
+						width="200"
+					/>
+				    </a>
+
+                    <div class="container-fluid collapse navbar-collapse" id="myNavBar">
+                        <ul class="navbar-nav ms-auto">
+                            <div class="dropdown">
+                                <a class="btn btn-outline-light dropdown-toggle me-4" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="fas fa-globe pe-1"></i>English 
+                                </a>
+                              
+                                <ul class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">English</a></li>
+                                  <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                </ul>
+                              </div>
+                            <li class="nav-item">
+                                <a href="/" class="nav-link me-5 btn btn-sm text-light pb-1 pt-1" style="font-weight: 400; font-size: 18px;">Sign In</b></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Center Content -->
+            <div id="homeCenter" class="container  text-light  text-center" style="margin-top: 5.6em;">
+                <h1 style="font-size: 65px; font-weight: 649; margin-bottom: 0px;">Unlimited movies, TV</h1>
+                <h1 style="font-size: 65px; font-weight: 649;">shows and more.</h1>
+                <h3 class="mt-3" style="font-weight: 450;">Watch anywhere. Cancel anytime.</h3>
+                <p class="lead pt-4" style="font-weight: 400;">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6">
+                       
+                        <input type="email" id="email-box" class="form-control" placeholder="Email address" style="height: 70px;" required>
+                    </div>
+                    <div class="col-sm-4" style="padding-left: 0%;"><button id="get-btn" class="btn text-light align-items-center" style="background-color: red; height: 70px; font-size: 30px; display: flex; text-align: center;">Get Started ></button></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Enjoy Section - 2 -->
+        <div id="section-2" >
+            <div class="container">
+                <div class="row p-5" id="content">
+                    <div class="col-sm-6 text-white mt-5">
+                        <h1 class="">Enjoy on your TV.</h1>
+                        <h3 class="lh-1">Watch on smart TVs, PlayStation, Xbox,</h3>
+                        <h3 class="lh-1">Chromecast, Apple TV, Blu-ray players and</h3>
+                        <h3 class="lh-1">more.</h3>
+                    </div>
+                    <div class="col-sm-6">
+                        <img alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="our-story-card-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Section - 3 -->
+        <div id="section-3">
+            <div class="container">
+                <div class="row " >
+                    <div class="col-sm-6"><img id="download-img" alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" data-uia="our-story-card-img"></div>
+                    <div id="sec2-content" class="col-sm-5 text-white">
+                        <h1>Download your shows</h1>
+                        <h2>to watch offline.</h2>
+                        <h3 id="sec3-h3-one">Save your favourites easily and always have</h3>
+                        <h3 id="sec3-h3-two">here</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Watch Section - 4 -->
+            <div id="section-4" >
+                <div class="container">
+                    <div class="row p-5" id="content">
+                        <div class="col-sm-6 text-white mt-5">
+                            <h1 class="">Watch everywhere.</h1>
+                            <h3 class="lh-1">Watch on smart TVs, PlayStation, Xbox,</h3>
+                            <h3 class="lh-1">Chromecast, Apple TV, Blu-ray players and</h3>
+                            <h3 class="lh-1">more.</h3>
+                        </div>
+                        <div class="col-sm-6">
+                            <img alt="" class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="our-story-card-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+		<!-- JS and Popper Cdn -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
