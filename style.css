@@ -66,6 +66,7 @@ body {
 	margin: 40px;
 	height: 300px;
 	width: 450px;
+	margin-bottom: 80px;
 }
 
 #section-3 h1 {
@@ -87,7 +88,7 @@ body {
 }
 
 #sec3-h3-one {
-	padding-top: 15px;
+	padding-top: 25px;
 	line-height: 15px;
 }
 
@@ -107,5 +108,89 @@ body {
 	padding-left: 60px;
 	font-size: 1.625rem;
 	font-weight: 400;
-	margin-bottom: ;
+}
+
+/* Section-5 */
+#section-5 {
+	background-color: black;
+	border-bottom: 8px solid #222;
+	padding-bottom: 15px;
+}
+
+#sec5-h1 {
+	margin-top: 120px;
+}
+
+#section-5 h1 {
+	font-size: 3.125rem;
+	line-height: 50px;
+	margin-bottom: 0.5rem;
+}
+
+#section-5 h3 {
+	padding-top: 15px;
+	font-size: 1.625rem;
+	font-weight: 400;
+}
+
+/* Section-6 */
+#section-6 {
+	background-color: black;
+}
+
+#faq {
+	width: 57%;
+	/* height: 100%; */
+	margin-left: 22%;
+}
+
+#section-6 h1 {
+	font-size: 50px;
+}
+
+#membership {
+	background-color: black;
+	border-bottom: 8px solid #222;
+}
+
+#membership p {
+	font-size: 1.2rem;
+	/* padding-bottom: 5px; */
+}
+
+/* Section-7 */
+#section-7 {
+	background-color: black;
+}
+
+#section-7 li {
+	list-style-type: none;
+}
+
+#ul-1 {
+	margin-left: 110px;
+	line-height: 30px;
+}
+
+#ul-2 {
+	margin-left: 25px;
+	line-height: 30px;
+}
+
+#ul-3 {
+	margin-left: 45px;
+	line-height: 30px;
+}
+
+#ul-4 {
+	line-height: 30px;
+}
+
+#end-dropdown {
+	margin-left: 140px;
+	size: 300px;
+}
+
+#nf-adil {
+	margin-left: 140px;
 }
