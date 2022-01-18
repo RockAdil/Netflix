@@ -173,6 +173,10 @@ body {
 	text-decoration: underline;
 }
 
+#section-7 li {
+	list-style-type: none;
+}
+
 #ul-1 {
 	margin-left: 110px;
 	line-height: 30px;
