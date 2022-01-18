@@ -163,8 +163,14 @@ body {
 	background-color: black;
 }
 
-#section-7 li {
+#section-7 li a {
 	list-style-type: none;
+	text-decoration: none;
+	color: rgb(146, 139, 139);
+}
+
+#section-7 li a:hover {
+	text-decoration: underline;
 }
 
 #ul-1 {
